@@ -1,0 +1,58 @@
+  //未less化
+
+  .Lingxi-loading__mask{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:120px;
+    height: 40px;
+    background-color:rgba(0, 0, 0, 0.6);
+  }
+
+.Lingxi-loading > div:nth-child(1) {
+  background-color: #F38181;
+  animation: scale 0.75s -0.24s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+}
+
+.Lingxi-loading > div:nth-child(2) {
+  background-color: #FCE38A;
+  animation: scale 0.75s -0.12s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+}
+
+.Lingxi-loading > div:nth-child(3) {
+  background-color: #95E1D3;
+  animation: scale 0.75s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+}
+.Lingxi-loading > div {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  margin: 5px;
+  animation-fill-mode: both;
+  display: inline-block;
+  }
+
+
+.Lingxi-MinLoading > div {
+  width: 5px;
+  height: 30px;
+  border-radius: 2px;
+  margin: 2px;
+  animation-fill-mode: both;
+  display: inline-block;
+  animation: line-scale-pulse 0.9s -0.6s infinite cubic-bezier(0.85, 0.25, 0.37, 0.85);
+}
+.Lingxi-MinLoading > div:nth-child(3) {
+  background-color: #95E1D3;
+}
+.Lingxi-MinLoading > div:nth-child(2),
+.Lingxi-MinLoading > div:nth-child(4) {
+  background-color: #FCE38A;
+  animation-delay: -0.4s !important;
+}
+.Lingxi-MinLoading > div:nth-child(1),
+.Lingxi-MinLoading > div:nth-child(5) {
+  background-color: #F38181;
+  animation-delay: -0.2s !important;
+}
