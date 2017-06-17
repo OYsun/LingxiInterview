@@ -23,6 +23,7 @@ export default {
 .contact__main {
   padding-top: 80px;
   width: 500px;
+  height: auto;
   margin: 0 auto;
 }
 </style>
